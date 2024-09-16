@@ -7,5 +7,6 @@ A comprehensive collection of data structures and algorithms implemented in C++,
     1.Binary Number System
     2.Bitwise Operations
     3.Arrays
+    4.Vectors
 
 > LeetCode questions are also included.
