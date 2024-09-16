@@ -28,7 +28,6 @@ void display(vector <int> &v){
 }
 int main(){
     v = Inputele();
-    display(v);
     cout << "Enter the element u r searching for :";
     cin >> input;
     for(int ele: v) if(ele == input) cout << "Element found !!!!" << endl; //Linear Search
