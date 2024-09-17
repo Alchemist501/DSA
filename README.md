@@ -9,4 +9,11 @@ A comprehensive collection of data structures and algorithms implemented in C++,
     3.Arrays
     4.Vectors
 
+## Algorithms Used
+
+    1.Linear Search
+    2.Brute Force Approach
+    3.Kadane's Algorithm
+    4.Two Pointer Approach
+
 > LeetCode questions are also included.
