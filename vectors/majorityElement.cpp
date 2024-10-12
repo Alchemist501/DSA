@@ -53,28 +53,45 @@ void sort(vector<int> &v){
     display(v);
 }
 bool OptimisedApproach(){
+    sort(v);
+    int ans = v[0];
     int len = v.size();
-    v = sort(v);
     int freq = 1;
     for(int i = 1; i < len; i++){
         if(v[i] == v[i - 1]){
             freq++;
-            if(freq > len/2) {
-                cout << "The majority element in Brute Force approach is " << val << endl;
-                return true;
-            }
         }else {
             freq = 1;
-            int ans = v[i];
+            ans = v[i];
+        }
+        if(freq > len/2) {
+            cout << "The majority element in Brute Force approach is " << ans << endl;
+            return true;
         }
     }
     return false;
 }
+bool MooreAlgo(){
+    int len = v.size();
+    int ans = 0 , freq = 0;
+    for(int i = 0; i < len; i++){
+        if(freq == 0) ans = v.at(i);
+        if(ans == v.at(i)) freq++;
+        else freq--;
+    }
+    if(freq != 0){
+        cout << "The majority element in Moore's algorithm is " << ans << endl;
+        return true;
+    } else return false;
+}
 int main(){
     v = Inputele();
     display(v);
-    // sort(v);
     if(!BruteForceApproach())
+        cout << "Majority Element is not present in the array!" << endl;
+    if(!OptimisedApproach())
+        cout << "Majority Element is not present in the array!" << endl;
+    if(!MooreAlgo())
         cout << "Majority Element is not present in the array!" << endl;
     return 0;
 }
