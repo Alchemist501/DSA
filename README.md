@@ -4,16 +4,26 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 ## Topics Covered
 
-    1.Binary Number System
-    2.Bitwise Operations
-    3.Arrays
-    4.Vectors
+[1.Binary Number System](./BinaryNumberSystem)
+
+[2.Bitwise Operations](./BitwiseOpeartions)
+
+[3.Arrays](./Arrays)
+
+[4.Vectors](./vectors)
 
 ## Algorithms Used
 
-    1.Linear Search
-    2.Brute Force Approach
-    3.Kadane's Algorithm
-    4.Two Pointer Approach
+[1.Linear Search](./vectors/linearSearch.cpp)
 
-> LeetCode questions are also included.
+[2.Brute Force Approach](./vectors/PairSum.cpp)
+
+[3.Kadane's Algorithm](./leetCode/MaximumSubArray.cpp)
+
+[4.Two Pointer Approach](./vectors/PairSum.cpp)
+
+[5.Moore's Algorithm](./vectors/majorityElement.cpp)
+
+[6.Binary Exponentiation](./leetCode/BinaryExponentiation.cpp)
+
+> [LeetCode questions are also included.](./leetCode)
