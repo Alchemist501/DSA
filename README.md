@@ -16,7 +16,7 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [1.Linear Search](./vectors/linearSearch.cpp)
 
-[2.Brute Force Approach](./vectors/PairSum.cpp)
+[2.Brute Force Approach](./vectors/mostWater.cpp)
 
 [3.Kadane's Algorithm](./leetCode/MaximumSubArray.cpp)
 
