@@ -31,17 +31,19 @@ vector <int> OptimisedApproach1(vector <int> &nums){
 }
 //Optimised Space Complexity O(1):
 vector <int> OptimisedApproach2(vector <int> &nums){
+    int suffix = 1;
     int n = nums.size();
     vector <int> ans(n,1);
     for(int i = 1; i < n; i++)
         ans[i] = ans[i - 1]*nums[i - 1];
     for(int i = n - 2; i >= 0; i--){
-        ans[i] *= nums[i + 1];
+        suffix *= nums[i + 1];
+        ans[i] *= suffix;
     }
     return ans;
 }
 int main(){
-    vector <int> nums = {-1,1,0,-3,3};
+    vector <int> nums = {1,2,3,4};
     vector <int> ans = BruteForce(nums);
     for (int i : ans)
         cout << i << "\t";
@@ -50,7 +52,7 @@ int main(){
     for (int i : ans)
         cout << i << "\t";
     cout << endl;
-    OptimisedApproach2(nums);
+    ans = OptimisedApproach2(nums);
     for (int i : ans)
         cout << i << "\t";
     cout << endl;
