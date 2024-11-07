@@ -12,6 +12,10 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [4.Vectors](./vectors)
 
+[5.Pointers](./Pointers)
+
+[6.Sorting](./Sorting)
+
 ## Algorithms Used
 
 [1.Linear Search](./vectors/linearSearch.cpp)
@@ -25,5 +29,7 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 [5.Moore's Algorithm](./vectors/majorityElement.cpp)
 
 [6.Binary Exponentiation](./leetCode/BinaryExponentiation.cpp)
+
+[7.Binary Search]()
 
 > [LeetCode questions are also included.](./leetCode)
