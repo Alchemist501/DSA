@@ -2,23 +2,24 @@
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
-        int k = 0,st = 0;
-        int end = nums.size() - 1;
-        for (int i = 0; i < end; i++) {
-            if (nums.at(i) > nums.at(i + 1)) {
-                k = end - i;
-                break;
-            }
-        }
-        std::sort(nums.begin(), nums.end());
+        int mid;
+        int st = 0, end = nums.size() - 1;
         while (st <= end) {
-            int mid = st + (end - st) / 2;
-            if (target < nums.at(mid))
-                end = mid - 1;
-            else if (target > nums.at(mid))
-                st = mid + 1;
-            else
-                return ((nums.size() - k) + mid) % nums.size();
+            mid = st + (end - st) / 2;
+            cout << mid;
+            if (nums.at(mid) == target)
+                return mid;
+            else if (nums[st] <= nums[mid]) {
+                if (nums[st] <= target && target <= nums[mid])
+                    end = mid - 1;
+                else
+                    st = mid + 1;
+            } else {
+                if (nums[mid] <= target && target <= nums[end])
+                    st = mid + 1;
+                else
+                    end = mid - 1;
+            }
         }
         return -1;
     }
