@@ -34,4 +34,6 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [Google Interview Questions](./Google)
 
+[PayPal Interview Questions](./PayPal)
+
 > [LeetCode questions are also included.](./leetCode)
