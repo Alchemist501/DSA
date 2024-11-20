@@ -18,7 +18,7 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 ## Algorithms Used
 
-[1.Linear Search](./vectors/linearSearch.cpp)
+[1.Linear Search](./SearchingTechs/linearSearch.cpp)
 
 [2.Brute Force Approach](./vectors/mostWater.cpp)
 
@@ -30,7 +30,13 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [6.Binary Exponentiation](./leetCode/BinaryExponentiation.cpp)
 
-[7.Binary Search]()
+[7.Binary Search](./SearchingTechs/BinarySearch.cpp)
+
+## Sorting Algorithms
+
+[1.Bubble Sort](./Sorting/BubbleSort.cpp)
+
+[2.Selection Sort](./Sorting/SelectionSort.cpp)
 
 [Google Interview Questions](./Google)
 
