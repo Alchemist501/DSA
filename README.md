@@ -38,6 +38,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [2.Selection Sort](./Sorting/SelectionSort.cpp)
 
+[3.Insertion Sort](./Sorting/InsertonSort.cpp)
+
 [Google Interview Questions](./Google)
 
 [PayPal Interview Questions](./PayPal)
