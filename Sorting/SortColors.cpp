@@ -25,6 +25,7 @@ vector <int> Optimised(vector <int> &V){
     }
     return V;
 }
+//Dutch National Flag Algorithm
 vector <int> Optimal(vector <int> &v){
     int n = v.size();
     int low = 0,mid = 0,high = n - 1;

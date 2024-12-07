@@ -32,6 +32,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [7.Binary Search](./SearchingTechs/BinarySearch.cpp)
 
+[8.Dutch National Flag Algorithm](./Sorting/SortColors.cpp)
+
 ## Sorting Algorithms
 
 [1.Bubble Sort](./Sorting/BubbleSort.cpp)
