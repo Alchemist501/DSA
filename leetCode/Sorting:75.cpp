@@ -1,13 +1,20 @@
+//Problem Description => https://leetcode.com/problems/sort-colors
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
         int n = nums.size();
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (nums.at(i) > nums.at(j)) {
-                    swap(nums.at(i), nums.at(j));
-                }
+        int mid = 0, low = 0, high = n - 1;
+        while (mid <= high) {
+            if (nums.at(mid) == 0) {
+                swap(nums.at(mid), nums.at(low));
+                low++;
+                mid++;
+            } else if (nums.at(mid) == 1)
+                mid++;
+            else {
+                swap(nums.at(mid), nums.at(high));
+                high--;
             }
         }
     }
-}
+};

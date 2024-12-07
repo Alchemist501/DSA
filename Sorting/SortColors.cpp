@@ -1,12 +1,11 @@
-#include<iostream>
 #include<vector>
+#include<iostream>
 using namespace std;
 vector <int> BruteForce(vector <int> &V){
     int n = V.size();
     for(int i = 0; i < n - 1; i++){
-        for(int j = i + 1; j < n; j++){
+        for(int j = i + 1; j < n; j++)
             if(V.at(i) > V.at(j)) swap(V.at(i),V.at(j));
-        }
     }
     return V;
 }
@@ -26,22 +25,37 @@ vector <int> Optimised(vector <int> &V){
     }
     return V;
 }
-void printArray(vector <int> V){
-    for(int i : V){
-        cout << i << "\t";
+vector <int> Optimal(vector <int> &v){
+    int n = v.size();
+    int low = 0,mid = 0,high = n - 1;
+    while(mid <= high){
+        if(v.at(mid) == 0){
+            swap(v[mid],v[low]);
+            low++;
+            mid++;
+        }
+        else if(v.at(mid) == 1)
+            mid++;
+        else{
+            swap(v[mid],v[high]);
+            high--;
+        } 
     }
+    return v;
+}
+void printArray(vector <int> V){
+    for(int i : V)
+        cout << i << "\t";
     cout << endl;
 }
 int main(){
-    vector <int> V = {2,0,2,1,1,0};
+    vector <int> V = {2,0,2,1,1,0,2};
     cout << "BruteForce Approach : " << endl; 
     printArray(BruteForce(V));
     cout << "Optimised Approach : " << endl; 
     printArray(Optimised(V));
-    V = Optimised(V);
-    for(int i : V){
-        cout << i << "\t";
-    }
-    cout << endl;
+    cout << "Optimal Approach : " << endl;
+    printArray(Optimal(V));
+    V = Optimal(V);
     return 0;
 }
