@@ -16,6 +16,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [6.Sorting](./Sorting)
 
+[7.Strings](./Strings)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
