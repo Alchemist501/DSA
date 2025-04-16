@@ -18,6 +18,7 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [7.Strings](./Strings)
 
+[8.Numbers](./Numbers)
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
@@ -35,6 +36,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 [7.Binary Search](./SearchingTechs/BinarySearch.cpp)
 
 [8.Dutch National Flag Algorithm](./Sorting/SortColors.cpp)
+
+[9.Line Sweep Algorithm](./leetCode/LineSweep:850.cpp)
 
 ## Sorting Algorithms
 
