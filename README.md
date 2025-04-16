@@ -37,7 +37,9 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [8.Dutch National Flag Algorithm](./Sorting/SortColors.cpp)
 
-[9.Line Sweep Algorithm](./leetCode/LineSweep:850.cpp)
+[9.Euclid's Algorithm](./Numbers/GCD.cpp)
+
+[10.Line Sweep Algorithm](./leetCode/LineSweep:850.cpp)
 
 ## Sorting Algorithms
 

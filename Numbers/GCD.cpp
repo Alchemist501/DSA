@@ -9,6 +9,7 @@ int GCD(int a, int b){
     }
     return gcd;
 }
+//Euclid's Algorithm
 int Euclid(int a, int b){
     if (a == b) return a;
     else if(a == 0) return b;
