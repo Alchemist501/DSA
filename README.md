@@ -43,6 +43,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [10.Line Sweep Algorithm](./leetCode/LineSweep:850.cpp)
 
+[11.Hashing](./leetCode/Hashing:1.cpp)
+
 ## Sorting Algorithms
 
 [1.Bubble Sort](./Sorting/BubbleSort.cpp)
