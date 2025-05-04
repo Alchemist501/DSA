@@ -45,6 +45,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [11.Hashing](./leetCode/Hashing:1.cpp)
 
+[12.Slow-fast Approach](./leetCode/SlowFastPointer:287.cpp)
+
 ## Sorting Algorithms
 
 [1.Bubble Sort](./Sorting/BubbleSort.cpp)
