@@ -22,7 +22,9 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [9.2D Arrays](./2dArrays)
 
-[10.Recursion](./Recursion)
+[10.Recursion & Backtracking](./Recursion)
+
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
