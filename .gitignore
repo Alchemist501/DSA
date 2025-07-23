@@ -1,2 +1,5 @@
-.vscode
-output
+**
+!*/
+!*.cpp
+LinkedList
+OOPS
