@@ -24,7 +24,6 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [10.Recursion & Backtracking](./Recursion)
 
-
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
@@ -58,6 +57,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 [2.Selection Sort](./Sorting/SelectionSort.cpp)
 
 [3.Insertion Sort](./Sorting/InsertonSort.cpp)
+
+[4.Merge Sort](./Sorting/MergeSort.cpp)
 
 [Google Interview Questions](./Google)
 
