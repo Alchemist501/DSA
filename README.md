@@ -60,6 +60,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [4.Merge Sort](./Sorting/MergeSort.cpp)
 
+[5.Quick Sort](./Sorting/QuickSort.cpp)
+
 [Google Interview Questions](./Google)
 
 [PayPal Interview Questions](./PayPal)
