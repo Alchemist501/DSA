@@ -24,6 +24,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [10.Recursion & Backtracking](./Recursion)
 
+[11.OOPS](./OOPS)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
