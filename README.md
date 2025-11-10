@@ -38,6 +38,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [5.Moore's Algorithm](./vectors/majorityElement.cpp)
 
+[Moore's Voting Algorithm](./leetCode/MajorityElement_229.cpp)
+
 [6.Binary Exponentiation](./leetCode/BinaryExponentiation.cpp)
 
 [7.Binary Search](./SearchingTechs/BinarySearch.cpp)
