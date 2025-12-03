@@ -26,6 +26,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [11.OOPS](./OOPS)
 
+[12.Trees](./Trees)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
