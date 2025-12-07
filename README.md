@@ -28,6 +28,12 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [12.Trees](./Trees)
 
+[13.Graphs](./Graph/)
+
+[14.Dynamic Programming](./DynamicProgramming)
+
+[15.Greedy](./Greedy/)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
