@@ -30,9 +30,11 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [13.Graphs](./Graph/)
 
-[14.Dynamic Programming](./DynamicProgramming)
+[14. Tries](./Tries)
 
-[15.Greedy](./Greedy/)
+[15. Dynamic Programming](./DynamicProgramming)
+
+[16. Greedy](./Greedy/)
 
 ## Algorithms Used
 
@@ -61,6 +63,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 [11.Hashing](./leetCode/Hashing:1.cpp)
 
 [12.Slow-fast Approach](./leetCode/SlowFastPointer:287.cpp)
+
+[13. Bucket Sort](./Heap/leetcode347.cpp)
 
 ## Sorting Algorithms
 
