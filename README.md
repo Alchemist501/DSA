@@ -36,6 +36,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [16. Greedy](./Greedy/)
 
+[17. Linked List](./LinkedList)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
