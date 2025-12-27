@@ -38,6 +38,8 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [17. Linked List](./LinkedList)
 
+[18. Stack](./Stack)
+
 ## Algorithms Used
 
 [1.Linear Search](./SearchingTechs/linearSearch.cpp)
