@@ -38,7 +38,7 @@ A comprehensive collection of data structures and algorithms implemented in C++,
 
 [17. Linked List](./LinkedList)
 
-[18. Stack](./Stack)
+[18. Stack](./stack)
 
 ## Algorithms Used
 
